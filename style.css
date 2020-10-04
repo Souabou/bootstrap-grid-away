@@ -4,3 +4,11 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+.btn{
+    background-color: lightslategray!important;
+    border: none;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+}
