@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Carousel</title>
+
+        <!-- Font awesome -->
+		<script src="https://kit.fontawesome.com/2d566fa444.js" crossorigin="anonymous"></script>
+
+        <!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+    	<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-white">
+            <a class="navbar-brand text-uppercase text-light black" href="javascript:void(0);">Carousel</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColorLight" aria-controls="navbarColorLight" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColorLight">
+                <ul class="navbar-nav mr-auto nav-carousel">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html" data-abc="true">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);">NEW EMOJIS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="javascript:void(0);">Disabled</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div> 
+          </nav>
+
+        <!-- Main content -->
+        <div id="content" class="w3-col l10 m12  bg-light p-0 text-secondary">
+
+            <!-- Carousel -->
+            <div id="mycarousel" class="carousel slide mb-4" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100 h-100" src="./images/carousel/emojis2018.gif" alt="Emojis 2018">
+
+                        <!-- Add caption to slide -->
+                        <div class="carousel-caption text-left">
+                            <h3>Des émojis non genrés pour lutter contre les stéréotypes</h3>
+                            <p class="font-italic"><q>Where no man has gone before</q> Le combat pour une meilleure représentation des personnes se poursuit sur le terrain des émojis. Google a annoncé une nouvelle série d’emojis non-genrés.</p>
+                            <a href="javascript:void(0);" class="btn btn-lg btn-info">Check</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100 h-100" src="./images/carousel/emoji2020.jpg" alt="Emojis 2020">
+
+                        <!-- Add caption to slide -->
+                        <div class="carousel-caption text-left">
+                            <h3>2020</h3>
+                            <p class="font-italic">Soon after publishing his work on special relativity, Einstein began working to extend the theory to gravitational fields; he then published a paper on general relativity in 1916, introducing his theory of gravitation.</p>
+                            <a href="javascript:void(0);" class="btn btn-lg btn-info">See more</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100 h-100" src="./images/carousel/emojiroux.jpg" alt="Emojis roux">
+
+                        <!-- Add caption to slide -->
+                        <div class="carousel-caption text-left">
+                            <h3>Roux</h3>
+                            <p class="font-italic">Night view over a beautiful city, which is the second-most populous city in the United States and the third-most populous city in North America. Los Angeles is known for its mediterranean climate, ethnic diversity, Hollywood entertainment industry, and its sprawling metropolis.</p>
+                            <a href="javascript:void(0);" class="btn btn-lg btn-info">See more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#mycarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#mycarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+            <div class="container">
+                <!-- Block 1 -->
+                <div class="row block text-center p-4 mt-lg-5">
+                    <div class="col-lg-4 mb-5">
+                        <img class="rounded-circle" src="./images/carousel/emojineutre.jpeg" alt="emojis" width="140" height="140">
+
+                        <h2>Des émojis non genrés pour lutter contre les stéréotypes</h2>
+                        <p>Le combat pour une meilleure représentation des personnes se poursuit sur le terrain des émojis. Google a annoncé une nouvelle série d’emojis non-genrés. 
+
+                            « Ce n’est pas un troisième genre ou des emojis asexués mais quelque chose de plus inclusif », précise la designer de Google, Jennifer Daniel. L’entreprise américaine a créé une nouvelle série de 53 émojis non-genrés, c’est-à-dire ni masculin ni féminin. Google veut ainsi mieux représenter les personnes qui qui se situent sur le spectre du genre en-dehors de la binarité masculin-féminin et lutter contre les stéréotypes.
+                        </br>
+                        
+                    </p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                    </div>
+
+                    <div class="col-lg-4 mb-5">
+                        <img class="rounded-circle" src="./images/carousel/emojiroux.jpg" alt="emojis" width="140" height="140">
+
+                        <h2>I think I'm depressed</h2>
+                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                    </div>
+
+                    <div class="col-lg-4 mb-5">
+                        <img class="rounded-circle" src="./images/carousel/emoji2020.jpg" alt="emojis" width="140" height="140">
+
+                        <h2>Already morning?</h2>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                    </div>
+                </div>
+
+                <hr class="mb-sm-5">
+
+                <!-- Block 2 -->
+                <div class="row p-5">
+                    <div class="col-md-7">
+                        <h2 class="mt-lg-5 pt-lg-5 text-42">Respect your readers. <span class="text-muted">Can you do that?</span></h2>
+                        <p class="lead">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+                    </div>
+
+                    <div class="col-md-5">
+                        <img class="w-100 mx-auto" alt="image card1" src="./images/carousel/card1.png">
+                    </div>
+                </div>
+
+                <hr class="mb-sm-5">
+
+                <!-- Block 3 -->
+                <div class="row p-5">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="mt-lg-5 pt-lg-5 text-42">Always be ready to learn. <span class="text-muted">Can you do that?</span></h2>
+                        <p class="lead">Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?</p>
+                    </div>
+
+                    <div class="col-md-5 order-md-1">
+                        <img class="w-100 mx-auto" alt="image card2" src="./images/carousel/card2.png">
+                    </div>
+                </div>
+
+                <hr class="mb-sm-5">
+
+                <!-- Block 4 -->
+                <div class="row p-5">
+                    <div class="col-md-7">
+                        <h2 class="mt-lg-5 pt-lg-5 text-42">Search the best way to dive.<span class="text-muted">Can you do that?</span></h2>
+                        <p class="lead">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue.</p>
+                    </div>
+
+                    <div class="col-md-5">
+                        <img class="w-100 mx-auto" alt="image card3" src="./images/carousel/card3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center bg-dark py-2">
+            <h5 class="text-light">Footer</h5>
+
+            <ul class="footer-links list-unstyled">
+                <li>
+                    <a class="text-white text-decoration-none" href="./index.html">Home page</a>
+                </li>
+                <li>
+                    <a class="text-white text-decoration-none" href="#">Carousel</a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+
+    <!-- Bootstrap files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</html>
